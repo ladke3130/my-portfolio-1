@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nikita Ladke</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="images/myimage.jpeg" alt="maitri" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Maitri Vaghasiya">Nikita Ladke</h1>
+
+          <p class="title">Web Developer | Software Developer</p>
+         
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:nikitaladke8@gmail.com" class="contact-link">nikitaladke8@gmail.com</a>
+            </div>
+
+          </li>
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">5 June, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+9693852450" class="contact-link">+91 9399423254</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="School"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Education</p>
+              
+              <time datetime=""><b>1. Vellore Institute Of Technology, Bhopal</b>
+                <br>
+                -Masters in Computer Application ( 7.4/10 )
+              </time>
+              
+            </div>
+              </li>
+              <li class="contact-item">
+
+                <div class="icon-box">
+                  <ion-icon name="School"></ion-icon>
+                </div>
+    
+                <div class="contact-info">
+                  <p class="contact-title"></p>
+                  
+                  <time datetime=""><b>2. DAVV University, Indore</b>
+                    <br>
+                    -Bachelors in Information technology ( 69.9/100 )
+                  </time>
+                  
+                </div>
+                  </li>
+          
+          
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Bhopal, INDIA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/ladke3130" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/nikita9399/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          
+
+        </ul>
+        <br>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+         
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            <strong>Hi! and welcome to the page.</strong> I am nikita ladke, A student at Vellore Institute Of Technolgy, currently persuing Masters in Computer Application. I have interest in Web Development specifically in <b>FrontEnd Development</b>. I aspire to become <u>Full Stack Developer.</u> <br>I am skilled in <strong>ReactJS</strong> with beginner knowledge in NodeJS and MongoDB. I am also having knowledge of <strong>Data Structures and Algorithms</strong>.<br>
+            I am skilled in <b>JAVA</b> language along with HTML, CSS, Javascript, BootStrap and beginner knowledge in Python.<br>
+             Have knowledge of,<strong> OOPs, Operating System, Software Developemt, DataBase Management System, SQL. </strong><br>
+             <i>Other skills include </i><strong> skills, presentation skills, Critical Thinking, Time Management.</strong> <br><br>
+            <i>Things I do</i> When I'm not designing, I'd probably be hanging out with family or friends, being entertained with either Netflix or Spotify. Else i could look for possible opportunities where I can learn and can take collaborative team leadership responsibities, and gain experience with managing tech fields. 
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+        <section class="res">
+          <button class="button button1"><a href="https://drive.google.com/file/d/1bijzDrt15HkoWLw0GnQM-Lc-G-zT3vNy/view?usp=sharing" style="color: black;">Download Resume</a></button>
+        </section>
+        <br>
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Exploring web to design intricate websites.
+                </p>
+              </div>
+
+            </li>           
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Achievements</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+          
+
+          
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="images/avatar-3.jpeg" alt="Henry william" width="80" height="70" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>100 Days Of Coding</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Have completed 100 Days Of Coding Challenges.
+                    <br> Link: <a href="https://github.com/ladke3130/100DaysCodeChallenge">https://github.com/ladke3130/100DaysCodeChallenge</a>
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Nikita ladke</h4>
+
+             
+
+              <div data-modal-text>
+                <p>
+                  Nikita ladke
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Tools and Technologies</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="images/logo-1-color.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="images/logo-7-color.png" alt="client logo">
+              </a>
+            </li>
+            
+
+            
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Vellore Institute Of Technology, Bhopal</h4>
+
+              <span>2022 — 2024</span>
+
+              <p class="timeline-text">
+                Masters in Computer Appliction ( MCA )
+              </p>
+              <p class="timeline-text">
+                7.4 / 10
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Davv University , Indore </h4>
+
+              <span>2019 — 2022</span>
+
+              <p class="timeline-text">
+                BCA
+              </p>
+
+              <p class="timeline-text">
+                69.9/ 100
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">M.P Board</h4>
+
+              <span>2019</span>
+              <p class="timeline-text">
+                Class XII (Science)
+              </p>
+
+              <p class="timeline-text">
+                74.4 / 100
+              </p>
+
+              <p class="timeline-text">
+               
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">M.P Board</h4>
+
+              <span>2017</span>
+              <p class="timeline-text">
+                Class X 
+              </p>
+
+              <p class="timeline-text">
+                77.3 / 100
+              </p>
+
+              <p class="timeline-text">
+               
+              </p>
+
+            </li>
+
+            
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Projects</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">CurrencyDekho Converter(React) <p class="timeline-text">Web Development Project</p></h4>
+
+              <span>July 2023</span>
+
+              <p class="timeline-text">
+                Dynamic and user-friendly converter that enables users to quickly and accurately convert between 
+various currencies. Uses <b>ReactJS</b> and <b>>Chakra</b> UI web app to simplify currency conversion and uses 
+<strong>ExchangeRate-APIs</strong> for accurate conversions.
+<br>
+Technology: <strong>HTML, CSS, JavaScript, React-Js</strong> <br>
+<a href="https://64d5c019bea8f5276b01c72f--adorable-monstera-321859.netlify.app/" style="color:blue">CurrencYDekho Converter</a>
+              </p>
+              
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Weather App(React) <p class="timeline-text">Web Development Project</p></h4>
+
+              <span>July 2023</span>
+
+              <p class="timeline-text">
+                ReactJS weather application that displays the current weather conditions for a given location
+using <strong>Open Weather APIs</strong><br>
+Technology: <strong>HTML, CSS, JavaScript, Bootstrap, React-Js</strong><br>
+<a href="https://64d510e036dd2d0cfea49308--fanciful-pixie-da7bfd.netlify.app/" style="color:blue">Weather App</a>
+              </p>
+
+            </li>
+
+            
+
+          
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">ReactJS</h5>
+                <data value="80">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">JAVA</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">DBMS | SQL</h5>
+                <data value="90">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML, CSS, Javascript, BootStrap</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Problem Solving</h5>
+                <data value="90">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="60">60%</data>
+              </div>
+
+              
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            <!-- <li class="select-item">
+              <button data-select-item>Web development</button>
+            </li>
+
+            <li class="select-item">
+              <button data-select-item>Machine Learning</button>
+            </li> -->
+
+
+            
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+      <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://64d5c019bea8f5276b01c72f--adorable-monstera-321859.netlify.app/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  
+
+                  <img src="images/project-1.jpg" alt="finance" loading="lazy" >
+                </figure>
+
+
+                <h3 class="project-title">CurrencyDekho Converter</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"><a href="https://64d510e036dd2d0cfea49308--fanciful-pixie-da7bfd.netlify.app/" target="_blank">
+                    </ion-icon>
+                  </div>
+
+                  <img src="images/project-2.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Weather Application</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+            
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+       
+                    
+            
+  
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+    
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" autocomplete="off" data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" autocomplete="off" data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" autocomplete="off" data-form-input></textarea>
+
+            <button class="form-btn" type="submit"  data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
